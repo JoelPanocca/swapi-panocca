@@ -96,3 +96,10 @@ functions:
           path: people/{id}
           method: get
           cors: true
+  getPlanet:
+    handler: src/handler/planets/getPlanet.getPlanet
+    events:
+      - http:
+          path: planet/{id}
+          method: get
+          cors: true
