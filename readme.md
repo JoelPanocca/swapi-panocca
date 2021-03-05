@@ -12,11 +12,8 @@ Se expone 1 servicio (Este servicio se conecta al endpoint de SWAPI mediante AXI
 ### SWAGGER HUB
 - Link: https://app.swaggerhub.com/apis/Panocca/Rimac/1.0.0#/
 #### Build With
-
-- Serverless Framework
-- Nodejs
-- DynamoDB
-
+- npm i
+- sls Deploy
 #### Run Test
 
 - cd test
